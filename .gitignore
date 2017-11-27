@@ -36,7 +36,12 @@ CMakeFiles/
 
 # Apple
 *.xcodeproj
+Debug/
+*.build/
 
 # cmake
 cmake_install.cmake
 CMakeCache.txt
+
+# temp
+*Config.h
