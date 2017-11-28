@@ -1,5 +1,4 @@
 // hello world for tutorial
-#include "TutorialConfig.h"
 #include <iostream>
 int main (int argc, char *argv[])
 {
