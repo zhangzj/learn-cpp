@@ -1,1 +1,0 @@
-add_library(LoggerFunctions Sources/logger.cpp)
