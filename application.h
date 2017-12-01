@@ -1,10 +1,13 @@
-#include <string.h>
+#include <string>
 
 class Application
 {
 public:
     Application();
-    void print();
+    void run();
+
+private:
+	void print(std::string str);
 private:
     std::string m_string;
 };

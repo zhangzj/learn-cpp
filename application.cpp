@@ -6,9 +6,17 @@ Application::Application()
     m_string = " from zhangzj Application ";
 }
 
-void Application::print()
+void Application::run()
 {
-    std::cout << "print mString " 
-        << m_string << ";" 
-        << std::endl;
+	print("App Start");
+	print(m_string);
+
+	int a = 0;
+	std::cin >> a;
+}
+
+void Application::print(std::string str)
+{
+	std::cout << str << std::endl;
+
 }
