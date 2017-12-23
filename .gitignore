@@ -43,5 +43,12 @@ CMakeScripts/
 CMakeFiles/
 [Bb]uild/
 
+#build by vs
+.vs/
+Debug/
+Release/
+x86/
+x64/
+
 # temp
 *Config.h
