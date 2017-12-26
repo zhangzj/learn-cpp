@@ -1,0 +1,3 @@
+﻿  glew.c
+    正在创建库 ..\..\lib\Release\Win32\glew32.lib 和对象 ..\..\lib\Release\Win32\glew32.exp
+  glew_shared.vcxproj -> C:\Users\Mary\study\learn-cpp\OpenGLWindow\Libs\glew-2.1.0\build\vc12\..\..\bin\Release\Win32\glew32.dll

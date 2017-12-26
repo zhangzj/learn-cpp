@@ -70,8 +70,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\SPROUTRS0138\study\learn-cpp\OpenGLWindow\Libs\glew-2.1.0\include;C:\Users\SPROUTRS0138\study\learn-cpp\OpenGLWindow\Libs\glfw-3.2.1\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\SPROUTRS0138\study\learn-cpp\OpenGLWindow\Libs\glew-2.1.0\lib\Debug\Win32;C:\Users\SPROUTRS0138\study\learn-cpp\OpenGLWindow\Libs\glfw-3.2.1\build\src\Debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)Libs\glew-2.1.0\include;$(SolutionDir)Libs\glfw-3.2.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Libs\glew-2.1.0\lib\Debug\Win32;$(SolutionDir)Libs\glfw-3.2.1\build\src\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>$(SolutionDir)Libs\glew-2.1.0\include;$(SolutionDir)Libs\glfw-3.2.1\include;$(IncludePath)</IncludePath>

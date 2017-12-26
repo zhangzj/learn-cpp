@@ -14,7 +14,7 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+#*.dll
 
 # Fortran module files
 *.mod
@@ -24,7 +24,7 @@
 *.lai
 *.la
 *.a
-*.lib
+#*.lib
 
 # Executables
 *.exe
@@ -33,7 +33,7 @@
 
 # Apple
 *.xcodeproj
-Debug/
+# Debug/
 *.build/
 
 # cmake
@@ -41,14 +41,14 @@ cmake_install.cmake
 CMakeCache.txt
 CMakeScripts/
 CMakeFiles/
-[Bb]uild/
+#[Bb]uild/
 
 #build by vs
 .vs/
-Debug/
-Release/
-x86/
-x64/
+#Debug/
+#Release/
+#x86/
+#x64/
 
 # temp
 *Config.h
