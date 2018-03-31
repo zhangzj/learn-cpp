@@ -62,6 +62,7 @@ CMakeFiles/
 # User-specific files
 *.suo
 *.user
+*.pro.user
 *.userosscache
 *.sln.docstates
 
